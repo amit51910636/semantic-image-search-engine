@@ -132,8 +132,8 @@ semantic-image-search-engine/
 Just add this after uploading screenshots:
 
 ```
-![Tet to Image](image.png)
-![Find Similar Images](image-1.png)
+![Text to Image](image-1.png)
+![Image to Image](image.png)
 ```
 
 ---
