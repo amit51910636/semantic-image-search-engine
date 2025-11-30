@@ -6,7 +6,7 @@ from PIL import Image
 API_BASE = "http://localhost:8000"
 
 st.set_page_config(page_title="Semantic Image Search", layout="wide")
-st.title("🔍 Semantic Image Search (CLIP + Qdrant + LLM)")
+st.title("Semantic Image Search Engine")
 
 tab1, tab2 = st.tabs(["Search by Text", "Search by Image"])
 
