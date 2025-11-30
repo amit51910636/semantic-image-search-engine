@@ -6,7 +6,7 @@ from qdrant_client.http import models
 from PIL import Image
 
 from semantic_image_search.backend.config import Config
-from semantic_image_search.backend.qdrant_client import QdrantClientManager
+from semantic_image_search.backend.qdrant_client_new import QdrantClientManager
 from semantic_image_search.backend.embeddings import (
     embed_text,
     embed_single_image,

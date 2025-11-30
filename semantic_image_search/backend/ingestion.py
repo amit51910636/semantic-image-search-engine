@@ -4,7 +4,7 @@ from typing import Optional, List, Dict, Any
 from qdrant_client.http import models
 
 from semantic_image_search.backend.config import Config
-from semantic_image_search.backend.qdrant_client import QdrantClientManager
+from semantic_image_search.backend.qdrant_client_new import QdrantClientManager
 from semantic_image_search.backend.embeddings import embed_image_paths
 from semantic_image_search.backend.logger import GLOBAL_LOGGER as log
 from semantic_image_search.backend.exception.custom_exception import SemanticImageSearchException
